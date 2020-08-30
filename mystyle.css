@@ -1,0 +1,79 @@
+@font-face {
+    src: url("./fonts/muli/Muli-SemiBold.ttf");
+    font-family: muli;
+}
+* {
+    margin: 0; 
+    padding: 0; 
+    font-family: muli;
+}
+div.mainContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img.photos {
+    height:400px;
+    width:400px;
+    margin:30px auto 40px auto;
+}
+.sgvMainContainer {
+    display:flex;
+    flex-direction: row;
+    margin: 20px 15px;
+    justify-content: center;
+    font-size: 17px;
+    color: rgb(128, 128, 128);
+}
+.svgSmallContainer {
+    display:flex;
+    flex-direction: row;
+    margin-right:20px;
+}
+.svgSmallContainer > svg {
+    margin-top:5px;
+}
+.svgSmallContainer svg {
+    height:18px;
+    width: 18px;
+    margin-right: 15px;
+}
+div.buttonsContainer {
+    margin: 30px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttonsContainer > div {
+    color:white;
+    background-color: black;
+    border:2px solid black;
+    padding:5px 27px;
+    align-items: center;
+    font-weight: bold;
+    margin:auto 10px;
+    font-size:15px;
+}
+.buttonsContainer > :nth-child(2) {
+    color:black;
+    background-color: white;
+}
+.mainContainer > div {
+    width: 400px;
+    text-align: center;
+}
+.secondArticle {
+    margin: 0px 50px;
+}
+div header {
+    font-size: 22px;
+    color: rgb(22, 22, 22);
+    font-weight: bold;
+}
+div > p {
+    font-size:15px;
+    color: rgb(128, 128, 128);
+    font-weight: bold;
+    margin: 30px;
+}
+
